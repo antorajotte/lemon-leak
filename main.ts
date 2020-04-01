@@ -1,6 +1,6 @@
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (sprite, otherSprite) {
-    mySprite.startEffect(effects.clouds, 200)
-    info.changeScoreBy(-25)
+    mySprite.startEffect(effects.clouds, 1000)
+    info.changeScoreBy(-10)
 })
 let projectile: Sprite = null
 let mySprite: Sprite = null
